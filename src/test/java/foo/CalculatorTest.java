@@ -17,7 +17,7 @@ public class CalculatorTest {
 	private double valueTwo;
 	
 	@Parameters                     //3. @Parameters annotation
-	public static Collection<Integer[]> getTestParameters2(){   //4. public static Collection< types > getTestParameters(), function name doesn't matter
+	public static Collection<Integer[]> getTestParameters(){   //4. public static Collection< types > getTestParameters(), function name doesn't matter
 		return Arrays.asList(new Integer[][]{
 				{2, 1, 1},
 				{3, 2, 1}, 
